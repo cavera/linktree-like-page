@@ -5,7 +5,7 @@ module.exports = {
 	entry: "./src/index.js",
 	output: {
 		path: path.resolve(__dirname, "dist"),
-		Filename: "main.js",
+		filename: "main.js",
 	},
 	resolve: {
 		extensions: [".js"],
